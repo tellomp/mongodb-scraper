@@ -1,9 +1,13 @@
 var express    = require('express'),
-    bodyParser = require('body-parser'),
     exphbs     = require('express-handlebars'),
     logger     = require("morgan");
 
-var PORT = process.env.PORT || 8000;
+    var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+    mongoose.connect(MONGODB_URI)
+
+
+    var PORT = process.env.PORT || 4444;
 
 // Initialize Express
 var app = express();
