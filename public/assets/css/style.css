@@ -5,7 +5,8 @@ html {
   
   body {
     margin-bottom: 80px;
-    background-image: url(https://i.pinimg.com/originals/7c/95/02/7c95029dd31403a0413812f5c9e43d15.jpg);
+    background-color: #EBEBEB;
+    /* background-image: url(https://i.pinimg.com/originals/7c/95/02/7c95029dd31403a0413812f5c9e43d15.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
    font-family: "Cormorant SC";
@@ -13,7 +14,7 @@ html {
   }
 
   .card a:not([href]):not([tabindex]).scrape-new {
-    color: #5A0001;
+    color: #2a1f59;
   }
   
   .footer {
@@ -22,7 +23,7 @@ html {
     width: 100%;
     height: 80px;
     color: white;
-    background-color: #5A0001;
+    background-color: #2a1f59;
   }
   
   .navbar {
@@ -45,14 +46,14 @@ html {
     bottom: 0;
     left: 0;
     z-index: auto;
-    background: linear-gradient(#333, black);
+    background: linear-gradient(rgb(75, 74, 74), black);
     opacity: 0.7;
   }
   
   .jumbotron .background-image {
     height: 100%;
-    background-image: url("../images/jumbotron.jpeg");
-    background-size: cover;
+    background-image: url(https://i1.wp.com/mlw.com/wp-content/uploads/2018/05/Queensboro-1-Bridge-Manhattan-Skyline-Queens-River-Paul-Reiffer-Professional-Cityscape-Photographer-Landscape-New-York-City@2x.jpg?fit=1200%2C402&ssl=1);
+      background-size: cover;
   }
   
   .jumbotron .caption {
@@ -87,7 +88,7 @@ html {
   }
   
   .card .card-header {
-    background-color: #5A0001;
+    background-color: #2a1f59;
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -127,7 +128,7 @@ html {
     padding-left: 10px;
     margin: 0;
     font-weight: 800;
-    background: #5A0001;
+    background: #2a1f59;
   }
   
   .navbar-nav > li > a.scrape-new,
@@ -141,7 +142,7 @@ html {
   
   .navbar-nav > li > a.scrape-new:hover,
   .navbar-nav > li > a.clear:hover {
-    background: #886F68;
+    background: #0F0F11;
   }
   
   .navbar-nav > li > a.scrape-new:active {
@@ -149,25 +150,25 @@ html {
   }
   
   .bg-primary {
-    background-color:  #5A0001 !important;
+    background-color:  #2a1f59 !important;
 }
 
 .btn-danger {
   color: #fff;
-  background-color: #886F68;
-  border-color: #886F68;
+  background-color: #0F0F11;
+  border-color: #0F0F11;
 }
 
 .btn-success {
   color: #fff;
-  background-color: #886F68;
-  border-color: #886F68;
+  background-color: #0F0F11;
+  border-color: #0F0F11;
 }
 
 .btn-info {
-  color: #fff;
-  background-color: #FF9800;
-  border-color: #FF9800;
+  color:  #fff;
+  background-color: #787a8b;
+  border-color: #787a8b;
 }
 
   .scrape-new {
@@ -195,8 +196,12 @@ html {
   }
 
   a {
-    color: #5A0001;
+    color: #2a1f59;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+}
+
+.alert-warning {
+  background-color: #2a1f59;
 }
