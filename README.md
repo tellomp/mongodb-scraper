@@ -18,6 +18,9 @@ A web app that lets users view and leave comments on the latest news. The app us
 * Users are able to delete comments left on articles. 
 * All stored comments are visible to every user.
 
+## Live App
+* Scrape and add some articles to our database here! 
+
 ## Technologies Used
 * Express.js
 * Express-handlebars
